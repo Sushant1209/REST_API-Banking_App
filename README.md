@@ -41,7 +41,7 @@ This REST API provides basic banking operations for managing accounts, deposits,
 
 // Response Body
 {
-  "accountId": 12345,
+  "accountId": 1,
   "accountHolderName": "Jane Doe",
   "balance": 500.00
 }
