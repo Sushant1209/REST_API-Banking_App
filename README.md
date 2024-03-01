@@ -23,8 +23,8 @@ This REST API provides basic banking operations for managing accounts, deposits,
 | ----------------- | ------ | ------------------------------------------------- |
 | `/api/accounts`   | POST   | Creates a new bank account                        |
 | `/api/accounts/{id}` | DELETE | Deletes a bank account by its ID                      |
-| `/api/accounts/{id}/deposit`  | POST   | Adds funds to a specified account                 |
-| `/api/accounts/{id}/withdrawal` | POST   | Removes funds from a specified account            |
+| `/api/accounts/{id}/deposit`  | PUT   | Adds funds to a specified account                 |
+| `/api/accounts/{id}/withdrawal` | PUT   | Removes funds from a specified account            |
 
 **Request/Response Formats**
 
@@ -35,7 +35,7 @@ This REST API provides basic banking operations for managing accounts, deposits,
 // Request Body
 {
   "accountHolderName": "Jane Doe",
-  "initialBalance": 500.00
+  "balance": 500.00
 }
 
 // Response Body
