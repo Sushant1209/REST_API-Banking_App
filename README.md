@@ -13,10 +13,9 @@ This REST API provides basic banking operations for managing accounts, deposits,
 
 **Technologies Used**
 
-* **Spring Boot (version):** 
-* **Spring Data JPA (Hibernate):**
-* **MySQL (version):** 
-* **Other Libraries:** (List any additional dependencies)
+* **Spring Boot** 
+* **Spring Data JPA (Hibernate)**
+* **MySQL** 
 
 **API Endpoints**
 
